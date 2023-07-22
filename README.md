@@ -21,20 +21,13 @@
 #### HOW TO USE
 <i>
   
-1. Clone this repository to your local machine.
-  
-2. Install the required dependencies using ***pip install -r requirements.txt***.
- 
-3. Run the app using ***streamlit run app.py***.
- 
+1. Clone this repository to your local machine.  
+2. Install the required dependencies using ***pip install -r requirements.txt***. 
+3. Run the app using ***streamlit run app.py***. 
 4. Once the app is launched, you'll see the navigation menu on the sidebar.
-
 5. Start by clicking on the Upload option to upload your dataset.
-
 6. Move on to the ***Profiling*** section to get insights into your data.
-
 7. Proceed to the ***Modeling*** section to build and evaluate your ML models with PyCaret.
-
 8. Finally, head to the ***Download*** section to save the best model.
 </i>
 
