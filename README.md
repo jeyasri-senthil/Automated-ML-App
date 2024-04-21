@@ -1,4 +1,4 @@
-### AutoML App using Streamlit, Pandas Profiling, and PyCaret
+### AutoML App using Streamlit and Scikit-Learn
 
 #### OVERVIEW
 
