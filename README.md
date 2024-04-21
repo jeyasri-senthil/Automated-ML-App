@@ -2,7 +2,7 @@
 
 #### OVERVIEW
 
-<i>This application allows users to build an automated Machine Learning (AutoML) pipeline with ease. The app is designed to streamline the process of data analysis, profiling, model building, and result downloading. It leverages the power of Streamlit, Pandas Profiling, and PyCaret to provide a user-friendly and efficient experience.</i>
+<i>This application allows users to build an automated Machine Learning (AutoML) pipeline with ease. The app is designed to streamline the process of model building and result downloading. It leverages the power of Streamlit and Scikit-Learn to provide a user-friendly and efficient experience.</i>
 
 
 ![output](https://github.com/jeyasri-senthil/Automated-ML-App/assets/108861190/138767a3-a1db-4b30-81cd-0855b0ce1fd5)
@@ -14,29 +14,10 @@
 ##### 1. UPLOAD
 <i>In the ***Upload*** section, users can upload their dataset to get started with the AutoML pipeline. The app will automatically detect the data types and preview the dataset for further analysis.</i>
 
-##### 2. PROFILING
-<i>The ***Profiling*** section utilizes the power of Pandas Profiling to generate a comprehensive report on the uploaded dataset. Users can get insights into data distributions, missing values, correlations, and more. This profiling report helps users better understand the data and make informed decisions during the modeling process.</i>
+##### 2. MODELLING
+<i>The ***Modelling*** section is where the magic happens! Users can select the target variable, scaler, and model to train. The app will automatically preprocess the data, train the selected model, and evaluate its performance. Once trained, users can download the model with a single click.</i>
 
-##### 3. MODELLING
-<i>The ***Modelling*** section is where the magic happens! Users can select the target variable. The app will automatically preprocess the data, split it into training and testing sets, and apply PyCaret's AutoML functionality. Users can choose to run the AutoML process with a specific time limit or until the best model is found. The app will pick the top-performing model.</i>
-
-##### 4. DOWNLOAD
-<i>In the ***Download*** section, users can download the best-performing model. This enables users to deploy the model or share the results with others seamlessly.</i>
-
-#### HOW TO USE
-<i>
-  
-1. Clone this repository to your local machine.  
-2. Install the required dependencies using ***pip install -r requirements.txt***. 
-3. Run the app using ***streamlit run app.py***. 
-4. Once the app is launched, you'll see the navigation menu on the sidebar.
-5. Start by clicking on the Upload option to upload your dataset.
-6. Move on to the ***Profiling*** section to get insights into your data.
-7. Proceed to the ***Modeling*** section to build and evaluate your ML models with PyCaret.
-8. Finally, head to the ***Download*** section to save the best model.
-</i>
-
-### REFERENCES
+#### REFERENCES
 
 <i>Youtube and Github</i>
 
