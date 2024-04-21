@@ -5,7 +5,7 @@
 <i>This application allows users to build an automated Machine Learning (AutoML) pipeline with ease. The app is designed to streamline the process of data analysis, profiling, model building, and result downloading. It leverages the power of Streamlit, Pandas Profiling, and PyCaret to provide a user-friendly and efficient experience.</i>
 
 
-  ![output](https://github.com/jeyasri-senthil/Automated-ML-App/assets/108861190/f60425f6-6647-45e3-9cb8-7e477d18808d)
+![output](https://github.com/jeyasri-senthil/Automated-ML-App/assets/108861190/138767a3-a1db-4b30-81cd-0855b0ce1fd5)
 
 
 
